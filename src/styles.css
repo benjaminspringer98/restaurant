@@ -1,0 +1,63 @@
+/* reset: */
+body {
+    margin: 0;
+}
+
+/* navbar start */
+header {
+    display: flex;
+    justify-content: center;
+    background-color:#333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li { 
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/* navbar end */
+
+/* main content start */
+/* responsive images: */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.main-image {
+    background-image: url('img/pizza-marinara.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 830px;
+}
+
+.main-image-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+/* main content end */
